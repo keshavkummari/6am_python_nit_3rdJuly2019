@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc33734-3e50-4ce6-82b6-36bd7a9eed02" name="Default" comment="" />
+    <list default="true" id="ffc33734-3e50-4ce6-82b6-36bd7a9eed02" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/EH_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/try_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/try_except_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/try_except_else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,9 +17,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/Overview_Of_EH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/EH_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions/Functions_Overview.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except_else.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -58,6 +117,13 @@
         <option value="$PROJECT_DIR$/operators/identity.py" />
         <option value="$PROJECT_DIR$/operators/binary.py" />
         <option value="$PROJECT_DIR$/Functions/Functions_Overview.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/Overview_Of_EH.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/EH_01.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/try_except.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/try_except_01.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/try_exept_else.py" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/test.sh" />
+        <option value="$PROJECT_DIR$/ExceptionHandling/try_except_else.py" />
       </list>
     </option>
   </component>
@@ -84,7 +150,7 @@
             <path>
               <item name="6am_python_nit_3rdJuly2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="6am_python_nit_3rdJuly2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Functions" type="462c0819:PsiDirectoryNode" />
+              <item name="ExceptionHandling" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary">
+  <component name="RunManager" selected="Python.try_except_else">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -121,7 +187,18 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overview" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="6am_python_nit_3rdJuly2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/test.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Overview_Of_EH" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6am_python_nit_3rdJuly2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/Overview.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/Overview_Of_EH.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="try_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6am_python_nit_3rdJuly2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/binary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/try_except.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="identity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="try_except_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6am_python_nit_3rdJuly2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/identity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/try_except_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logical_operators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="try_except_else" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6am_python_nit_3rdJuly2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,32 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/logical_operators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="membership-operators" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="6am_python_nit_3rdJuly2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/membership-operators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/try_except_else.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.binary" />
-        <item itemvalue="Python.identity" />
-        <item itemvalue="Python.Overview" />
-        <item itemvalue="Python.membership-operators" />
-        <item itemvalue="Python.logical_operators" />
+        <item itemvalue="Python.try_except_else" />
+        <item itemvalue="Bash.test.sh" />
+        <item itemvalue="Python.try_except_01" />
+        <item itemvalue="Python.try_except" />
+        <item itemvalue="Python.Overview_Of_EH" />
       </list>
     </recent_temporary>
   </component>
@@ -267,12 +323,12 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14620355" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.269863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4849315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,6 +559,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/Functions_Overview.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/EH_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/Overview_Of_EH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_exept_else.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/try_except_else.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
