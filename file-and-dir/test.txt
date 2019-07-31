@@ -1,11 +1,7 @@
-[root@localhost ~]# ls -ld linux-tutorials/
-drwxr-xr-x. 2 root root 4096 Feb  7 04:34 linux-tutorials/
-
-Creating multiple directories:
-[root@localhost ~]# mkdir redhat-1 redhat-2 redhat-3 redhat-4
-
-[root@localhost ~]# ls -ld redhat*
-drwxr-xr-x. 2 root root 4096 Feb  7 04:35 redhat-1
-drwxr-xr-x. 2 root root 4096 Feb  7 04:35 redhat-2
-drwxr-xr-x. 2 root root 4096 Feb  7 04:35 redhat-3
-drwxr-xr-x. 2 root root 4096 Feb  7 04:35 redhat-4
+Our Next Topic is RegExrld
+2. 
+3. BY
+4. 
+5. Keshav Kummari
+6.
+7. Powered by NITOur Next Topic is RegExOur Next Topic is RegEx
