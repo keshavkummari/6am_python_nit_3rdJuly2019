@@ -1,0 +1,79 @@
+# Here’s a complete list of the metacharacters :
+
+'''
+. ^ $ * + ? { } [ ] \ | ( )
+
+1. .
+2. ^
+3. $
+4. *
+5. +
+6. ?
+7. { }
+8. [ ]
+9. \
+10. | \
+11. ( )
+
+For a complete list of sequences and expanded class definitions for Unicode string patterns, see the last part of Regular Expression Syntax.
+
+1. \d : Matches any decimal digit; this is equivalent to the class [0-9].
+2. \D : Matches any non-digit character; this is equivalent to the class [^0-9].
+3. \s : Matches any whitespace character; this is equivalent to the class [ \t\n\r\f\v].
+4. \S : Matches any non-whitespace character; this is equivalent to the class [^ \t\n\r\f\v].
+5. \w : Matches any alphanumeric character; this is equivalent to the class [a-zA-Z0-9_].
+6. \W : Matches any non-alphanumeric character; this is equivalent to the class [^a-zA-Z0-9_].
+These sequences can be included inside a character class.
+For example, [\s,.] is a character class that will match any whitespace character, or ',' or '.'.
+
+The final metacharacter in this section is .. It matches anything except a newline character,
+and there’s an alternate mode (re.DOTALL) where it will match even a newline.
+
+7. '.' is often used where you want to match “any character”.
+'''
+
+
+# Compiling Regular Expressions :
+'''
+Regular expressions are compiled into pattern objects, which have methods for various operations such
+as searching for pattern matches or performing string substitutions.
+'''
+# Example 1:
+import re
+p = re.compile('ab*')
+print(p)
+
+
+# Performing Matches
+"""
+Once you have an object representing a compiled regular expression, what do you do with it?
+
+Pattern objects have several methods and attributes.
+
+Only the most significant ones will be covered here; consult the re docs for a complete listing.
+
+------------------------------------
+Method/Attribute	| Purpose
+------------------------------------
+match()	            | Determine if the RE matches at the beginning of the string.
+search()	        | Scan through a string, looking for any location where this RE matches.
+findall()	        | Find all substrings where the RE matches, and returns them as a list.
+finditer()	        | Find all substrings where the RE matches, and returns them as an iterator.
+
+match() and search() return None if no match can be found.
+If they’re successful, a match object instance is returned,
+containing information about the match: where it starts and ends, the substring it matched, and more.
+
+"""
+
+# match object instances also have several methods and attributes; the most important ones are:
+"""
+====================================
+Method/Attribute	Purpose
+====================================
+group()         	Return the string matched by the RE
+start()	            Return the starting position of the match
+end()	            Return the ending position of the match
+span()	            Return a tuple containing the (start, end) positions of the match
+"""
+

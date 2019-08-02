@@ -1,0 +1,11 @@
+aws
+
+azure
+
+python
+
+perl
+
+devops
+
+agile
