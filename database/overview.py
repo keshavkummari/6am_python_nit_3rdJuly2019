@@ -122,3 +122,6 @@ cursor.execute(sql)
 
 # disconnect from server
 db.close()
+
+
+
