@@ -1,0 +1,138 @@
+
+Deploy a Webapplication on Windows/Linux/Unix :
+
+Server Side Scripting/Coding/Programming : PYTHON
+
+Client Side Scripting/Coding/Programming : HTML, CSS, JS etc...
+
+Where are we deploying : AWS Cloud 
+
+OS : Linux 
+
+WebServer : Apache httpd
+
+Deamon/Service : httpd 
+
+Utility Softwares : vim, curl, unzip, wget, elinks, etc..
+
+STEP-1 : Launch a Linux Server on AWS Cloud(EC2)
+
+STEP-2 : Install WebServer i.e. Apache httpd 
+
+STEP-3 : Install Utility Softwares i.e. vim, curl, unzip, wget, elinks, etc..
+
+STEP-4 : Start the WebServer i.e. httpd 
+
+STEP-5 : Go to DocumentRoot Path : /var/www/
+
+html/index.html       : Client Side Scripting/Coding/Programming : HTML, CSS, JS etc...
+cgi-bin/checkbox.py   : Server Side Scripting/Coding/Programming : Python
+
+Running Commands :
+
+   32  hostname set-hostname "smtp.kk.com"
+   33  /bin/bash
+   34  hsotname
+   35  hostname
+   36  ifconfig
+   37  # web.kk.com 172.31.20.230
+   38  vi /etc/hosts
+   39  yum install http* 
+   40  yum install http* --skip-broken 
+   41  rpmquery httpd
+   42  systemctl status httpd.service
+   43  service httpd status
+   44  service httpd start
+   45  service httpd status
+   46  chkconfig httpd on
+   47  yum install vim curl unzip wget elinks 
+   48  rpmquery vim
+   49  rpmquery curl
+   50  rpmquery unzip
+   51  ls -ld /var/www
+   52  ls -lrt /var/www
+   53  cd /var/www/
+   54  ls -lrt
+   55  cd html/
+   56  ls -lrt
+   57  vi index.html
+   58  vim index.html 
+   59  vim index.html 
+   60  ls -lrt
+   61  pwd
+   62  cd ../
+   63  cd cgi-bin/
+   64  pwd
+   65  ls -lrt
+   66  vi checkbox.py
+   67  vim checkbox.py 
+   68  ls -lrt
+   69  chmod 755 checkbox.py 
+   70  ls -lrt
+   71  python checkbox.py 
+   72  cd ../html/
+   73  pwd
+   74  ls -lrt
+   75  cat index.html 
+   76  cd ../cgi-bin/
+   77  ls -lrt
+   78  vim checkbox.py 
+   79  history
+
+
+File : index.html 
+
+<html>
+<head>
+<title>Code with KK </title>
+</head>
+
+<body bgcolor="olive">
+
+<h1> Welcome to Python World </h1>
+
+<h2> Select your course option </h2>
+
+<form action="/cgi-bin/checkbox.py" method="GET" target="_blank">
+First Name : <input type="" name="FirstName"/>
+Last Name  : <input type="" name="LastName"/>
+<input type="checkbox" name="Python" value="on" /> Python
+<input type="checkbox" name="Perl" value="on" /> Perl
+<input type="submit" value="Click Me!" />
+</form>
+
+</body>
+</html>
+
+File : checkbox.py 
+
+#!/usr/bin/python
+
+# Import modules for CGI handling
+import cgi, cgitb
+
+# Create instance of FieldStorage
+form = cgi.FieldStorage()
+
+# Get data from fields
+if form.getvalue('Python'):
+        course_python = "You have selected Python Course"
+else:
+   course_python = "You have not selected"
+
+if form.getvalue('Perl'):
+    course_perl = "You have selected Perl Course"
+else:
+    course_perl = "You have not selected"
+
+print ("Content-type:text/html\r\n\r\n")
+print ("<html>")
+print ("<head>")
+print ("<title>Checkbox - CGI Program</title>")
+print ("</head>")
+print ("<body>")
+print ("<h2> CheckBox Python is : %s</h2>" % course_python)
+print ("<h2> CheckBox Perl is : %s</h2>" % course_python)
+print ("</body>")
+print ("</html>")
+
